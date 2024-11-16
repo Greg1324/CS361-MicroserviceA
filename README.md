@@ -1,4 +1,5 @@
 A. Requesting Data
+
 You are able to request data from the microservice by first getting the date and lift category data of the file you want to delete from the user. This data will be stored in an array
 with the string "delete" in the first slot. Then the program will open a pipe txt. file, and write each piece of data into its own line within the file. The program will then
 go to sleep in order to wait for the microservice to run. 
@@ -17,6 +18,7 @@ with open("pipe.txt", "w") as file:
 time.sleep(10)
 
 B. Receiving Data
+
 After the microservice is finished processing by writing whether it has successfully or unsuccessfully deleted the lift category file into the pipe txt. file, the program will stop sleeping and
 can recieve the deletion status message by reading the pipe txt. file. This message can then be stored in a variable, and that variable can be printed so that the user is informed if the request was
 successful or not. 
