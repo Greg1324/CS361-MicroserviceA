@@ -35,4 +35,5 @@ with open("pipe.txt", "r") as file:
 
 C. UML Sequence Diagram
 
-![image](https://github.com/user-attachments/assets/9db8e380-6bbb-4693-a247-ddac652bb06c)
+![image](https://github.com/user-attachments/assets/2b0a289b-7af8-4d1e-ad55-f1fe2157a2b0)
+
