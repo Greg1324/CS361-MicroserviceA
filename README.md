@@ -17,6 +17,7 @@ with open("pipe.txt", "w") as file:
         file.write(element)
 
 time.sleep(10)
+```
 
 B. Receiving Data
 
@@ -26,13 +27,11 @@ successful or not.
 
 Receive Example:
 
-
+```python
 with open("pipe.txt", "r") as file:
-
     message = file.readline()
-    
     print(message)
-
+```
 
 C. UML Sequence Diagram
 
