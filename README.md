@@ -11,9 +11,13 @@ lift_category = input("Please enter the lift category you would like to delete: 
 
 text = ["delete\n", date, "\n", lift_category]
 
+
 with open("pipe.txt", "w") as file:
+
     for element in text:
+    
         file.write(element)
+
 
 time.sleep(10)
 
@@ -25,10 +29,14 @@ successful or not.
 
 Receive Example:
 
+
 with open("pipe.txt", "r") as file:
+
     message = file.readline()
+    
     print(message)
 
 
 C. UML Sequence Diagram
+
 ![image](https://github.com/user-attachments/assets/9db8e380-6bbb-4693-a247-ddac652bb06c)
